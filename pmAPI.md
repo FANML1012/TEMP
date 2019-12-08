@@ -204,7 +204,7 @@ func checkErr(err error) {
 
 func Getapi() interface{} {
 
-​    token := "643ded163b7b096980f735ad31b0b660c59620b3"
+​    token := "643ded16//////////////////////59620b3"
 
 ​    city := "shanghai"
 
@@ -242,9 +242,9 @@ func SentMail(alert string) {
 
 ​    m := gomail.NewMessage()
 
-​    m.SetHeader("From", "1479314965@qq.com")
+​    m.SetHeader("From", "@@@@@@@@@com")
 
-​    m.SetHeader("To", "fanming.li@foxmail.com")
+​    m.SetHeader("To", "@@@@@@@@@@.com")
 
 ​    m.SetHeader("Subject", "ALERT")
 
@@ -252,7 +252,7 @@ func SentMail(alert string) {
 
 
 
-​    d := gomail.NewDialer("smtp.qq.com", 465, "1479314965@qq.com", "dyalqawgciyugebj")
+​    d := gomail.NewDialer("smtp.qq.com", 465, "@qq.com", "assword")
 
 
 
